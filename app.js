@@ -126,9 +126,6 @@ async function main() {
         const result2 = await varietal.insertMany(documentosVariedad);
         console.log('Documentos insertados en varietal con éxito:', result2.insertedIds);
 
-        
-
-
     } catch (err) {
         console.error('Error al conectar o insertar el documento:', err);
     } finally {

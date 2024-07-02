@@ -1,0 +1,9 @@
+Muestra todos los varietales con porcentaje de composición igual a 95:
+{ "porcentaje_composicion": 95 }
+
+Muestra todos los varietales con porcentaje de composición distitno a 90:
+{ "porcentaje_composicion": { "$ne": 90 } }
+
+Muestra todos los varietales con porcentaje de composición igual a 90 y que el tipo de uva sea Sauvignon Blanc:
+{ "porcentaje_composicion": 90, "tipo_uva": "Sauvignon Blanc" }
+
